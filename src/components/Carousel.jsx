@@ -19,7 +19,7 @@ const Carousel = () => {
   };
 
   return (
-    <Slider {...settings} className='w-[80%] mx-auto md:h-[530px]'  >
+    <Slider {...settings} className='w-[80%] mx-auto xl:h-[530px]'  >
       <div>
         <img src={first} alt="Img 1" className='object-cover '/>
       </div>
