@@ -6,6 +6,7 @@ import underline from '../assets/Vector 37.svg'
 import Faq from './Faq'
 import ConnectWithUs from './ConnectWithUs'
 import Table from './Table'
+
 const Hero = () => {
     return (
         <div className='bg-custom-color'>
@@ -25,14 +26,16 @@ const Hero = () => {
             </div>
             <div className='xl:text-4xl md:text-2xl  hidden md:flex justify-center flex-col items-center  mt-5 font-semibold font-sans'>
                 <p>Our Tested and Proven <span className='text-custom-color-1'> DEVORT</span>   Framework can help you to</p>
-                <p> build your <span className='italic underline text-custom-color-1'>High</span>&nbsp;<span className='italic text-custom-color-1 underline'>Performing</span>  Ecom Store on Shopify </p>
+                <p> build your <span className='italic underline text-custom-color-1'>High</span>&nbsp;<span className='italic text-custom-color-1 underline'>Performing</span>  Ecom Store on Shopify in</p>
+                <p className='italic'> <span className='underline '>Less than</span> <span className='underline'>21 Days</span></p>
             </div>
             <div className='  flex md:hidden justify-center flex-col text-[28px] items-center  mt-10 font-semibold font-sans'>
                 <p> Our Tested and Proven  </p>
                 <p> <span className='text-custom-color-1'>DEVORT</span>  Framework can</p>
                 <p> help you to build your</p>
                 <p>  <span className='italic underline text-custom-color-1'>High Performing</span>  Ecom</p>
-                <p>  Store on Shopify </p>
+                <p>  Store on Shopify in</p>
+                <p className='italic'> <span className='underline '>Less than</span> <span className='underline'>21 Days</span></p>
             </div>
             <div className='xl:text-2xl md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-serif'>
                 <p>Also Maximizes <span className='font-semibold'>Conversions, Mobile Page Experience, Website Loading Speed </span>  and helps</p>
@@ -188,7 +191,7 @@ const Hero = () => {
             <div>
                 <ConnectWithUs />
             </div>
-
+            
 
         </div>
     )
