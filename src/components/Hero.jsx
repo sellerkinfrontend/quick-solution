@@ -146,7 +146,7 @@ const Hero = () => {
                 <p>Few of our Shopify Clients</p>
             </div>
             <div className='hidden md:flex justify-center mt-2'>
-                <img src={underline} alt="img loading" className='md:w-4/12 xl:w-6/12' />
+                <img src={underline} alt="img loading" className='md:w-4/12 lg:w-5/12 xl:w-6/12' />
             </div>
             <div className='xl:text-2xl md:text-base flex justify-center  items-center  mt-6 font-serif font-medium'>
                 <p style={{ color: '#f7516e' }}>pallavipoddar.com</p>
@@ -166,7 +166,7 @@ const Hero = () => {
             <div className='mt-10'>
                 <Carousel2 />
             </div>
-            <div className='xl:text-5xl md:text-xl lg:text-2xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
+            <div className='xl:text-5xl md:text-xl lg:text-3xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
                 <p>Here is How our service compares to the Rest </p>
             </div>
             <div className=' md:hidden  flex flex-col text-3xl justify-center  items-center  mt-16  font-serif font-medium text-custom-color-1'>
@@ -175,7 +175,7 @@ const Hero = () => {
             </div>
 
             <div className='hidden md:flex justify-center mt-2'>
-                <img src={underline} alt="img loading" className='md:w-6/12 xl:w-10/12' />
+                <img src={underline} alt="img loading" className='md:w-6/12 lg:w-8/12 xl:w-10/12' />
             </div>
             <div className='mt-10 pb-20'>
                 <Table></Table>
