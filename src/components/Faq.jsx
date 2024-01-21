@@ -16,12 +16,12 @@ const Faq = () => {
 
             </div>
             <div className='hidden md:block'>
-                <img src={question} alt="" className='absolute left-20  ' />
+                <img src={question} alt="" className='absolute left-20 md:w-[90px] ' />
             </div>
             <div className='hidden md:block relative'>
-                <img src={question1} alt="" className='absolute right-12 -top-6 ' />
+                <img src={question1} alt="" className='absolute md:right-8 xl:right-12 xl:-top-6 md:w-[150px] md:-top-4' />
             </div>
-            <div className='mb-10'>
+            <div className='mb-10 font-serif'>
                 <div className='flex flex-col  w-10/12 md:w-7/12 mx-auto p-4  rounded-xl bg-custom-color-2 shadow-lg mt-10'>
                     <p className='mb-2'>Would I be able to connect my domain with the shopify website ?</p>
                     <p>Yes, Absolutely, you would be able to connect your domain with the shopify website </p>

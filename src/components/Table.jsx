@@ -3,7 +3,7 @@ import './table.css'
 const Table = () => {
   return (
     <div className='flex justify-center items-center'>
-      <table className='custom-table ' >
+      <table className='custom-table font-serif' >
         <tr>
             <th></th>
             <th>Our Service</th>

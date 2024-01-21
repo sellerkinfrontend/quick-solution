@@ -2,7 +2,7 @@ import React from 'react'
 
 const ConnectWithUs = () => {
   return (
-    <div className='bg-[#2F363C]'>
+    <div className='bg-[#2F363C] pt-2 font-serif'>
       <div className='text-white md:text-2xl xl:text-4xl flex justify-center'>
         <p>Get in touch with us</p>
       </div>
