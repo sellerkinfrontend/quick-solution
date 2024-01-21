@@ -14,7 +14,7 @@ const Hero = () => {
                     This is an invite only page ...
                 </p>
             </div>
-            <div className='xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center   mt-10 font-medium font-serif'>
+            <div className='xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center   mt-5 font-medium font-serif'>
                 <p> This is for all Ecom Owners who want to set up their store on Shopify</p>
 
             </div>
@@ -23,15 +23,15 @@ const Hero = () => {
                 <p> to set up their store on Shopify</p>
 
             </div>
-            <div className='xl:text-4xl md:text-2xl  hidden md:flex justify-center flex-col items-center  mt-10 font-semibold font-sans'>
-                <p> Our Tested and Proven DEVORT Framework can help you to </p>
-                <p> build your <span className='italic underline'>High Performing</span>  Ecom Store on Shopify </p>
+            <div className='xl:text-4xl md:text-2xl  hidden md:flex justify-center flex-col items-center  mt-5 font-semibold font-sans'>
+                <p>Our Tested and Proven <span className='text-custom-color-1'> DEVORT</span>   Framework can help you to</p>
+                <p> build your <span className='italic underline text-custom-color-1'>High</span>&nbsp;<span className='italic text-custom-color-1 underline'>Performing</span>  Ecom Store on Shopify </p>
             </div>
             <div className='  flex md:hidden justify-center flex-col text-[28px] items-center  mt-10 font-semibold font-sans'>
                 <p> Our Tested and Proven  </p>
-                <p>DEVORT  Framework can</p>
+                <p> <span className='text-custom-color-1'>DEVORT</span>  Framework can</p>
                 <p> help you to build your</p>
-                <p>  <span className='italic underline'>High Performing</span>  Ecom</p>
+                <p>  <span className='italic underline text-custom-color-1'>High Performing</span>  Ecom</p>
                 <p>  Store on Shopify </p>
             </div>
             <div className='xl:text-2xl md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-serif'>
@@ -57,7 +57,7 @@ const Hero = () => {
                 <p>Our Full Suite of Shopify </p>
                 <p> Ecommerce Development Services </p>
             </div>
-            <div className='xl:text-lg md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
+            <div className='xl:text-2xl md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
                 <p>Our Full Suite of Shopify Ecommerce Development Services </p>
             </div>
             <div className='grid justify-center items-center  xl:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 font-serif '>
@@ -65,7 +65,7 @@ const Hero = () => {
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
                         <div>
-                            <p className='font-bold text-2xl mb-2'>Shopify Store Setup</p>
+                            <p className='font-medium text-2xl mb-2'>Shopify Store Setup</p>
                         </div>
                         <div className='font-medium text-xs '>
                             <p className=''>Complete setup within</p>
@@ -76,7 +76,7 @@ const Hero = () => {
                 <div className='flex justify-center items-center'>
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
-                        <div className='font-bold text-2xl mb-2'>
+                        <div className='font-medium  text-2xl mb-2'>
                             <p>Custom Shopify Development Services</p>
                         </div>
                         <div className='font-medium text-xs'>
@@ -89,7 +89,7 @@ const Hero = () => {
                 <div className='flex justify-center items-center'>
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
-                        <div className='font-bold text-2xl mb-2'>
+                        <div className='font-medium  text-2xl mb-2'>
                             <p>Shopify App Integration Services</p>
                         </div>
                         <div className='font-medium text-sm'>
@@ -102,29 +102,30 @@ const Hero = () => {
                 <div className='flex justify-center items-center'>
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
-                        <div className='font-bold text-2xl mb-2'>
+                        <div className='font-medium  text-2xl mb-2'>
                             <p>
                                 Shopify Migration Services</p>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
-                        <div className='font-bold text-2xl mb-2'>
-                            <p>Third Party Integration</p>
+                        <div className='font-medium text-2xl mb-2'>
+                            <p>Third Party </p>
+                            <p> Integration</p>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
-                        <div className='font-bold text-2xl mb-2'>
+                        <div className='font-medium  text-2xl mb-2'>
                             <p>Shopify Maintenance and Support</p>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -134,7 +135,7 @@ const Hero = () => {
 
             </div>
 
-            <div className='xl:text-3xl md:text-xl hidden md:flex justify-center  items-center  mt-6 font-serif font-medium'>
+            <div className='xl:text-3xl md:text-xl hidden md:flex justify-center  items-center  mt-12 font-serif font-medium'>
                 <p>Now, Your e-commerce web development is in SAFE hands. </p>
             </div>
             <div className=' md:hidden flex flex-col justify-center  items-center  mt-6 font-serif font-medium text-lg'>
@@ -142,13 +143,13 @@ const Hero = () => {
                 <p> development is in SAFE hands. </p>
             </div>
 
-            <div className='xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-6 font-serif font-medium text-custom-color-1'>
+            <div className='xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-20 font-serif font-medium text-custom-color-1'>
                 <p>Few of our Shopify Clients</p>
             </div>
             <div className='hidden md:flex justify-center mt-2'>
                 <img src={underline} alt="img loading" className='md:w-4/12 lg:w-5/12 xl:w-6/12' />
             </div>
-            <div className='xl:text-2xl md:text-base flex justify-center  items-center  mt-6 font-serif font-medium'>
+            <div className='xl:text-2xl md:text-base flex justify-center  items-center  mt-16 font-serif font-medium'>
                 <p style={{ color: '#f7516e' }}>pallavipoddar.com</p>
             </div>
             <div className='mt-10'>
@@ -167,10 +168,10 @@ const Hero = () => {
                 <Carousel2 />
             </div>
             <div className='xl:text-5xl md:text-xl lg:text-3xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
-                <p>Here is How our service compares to the Rest </p>
+                <p>Here is how our service compares to the Rest </p>
             </div>
             <div className=' md:hidden  flex flex-col text-3xl justify-center  items-center  mt-16  font-serif font-medium text-custom-color-1'>
-                <p>Here is How our service </p>
+                <p>Here is how our service </p>
                 <p> compares to the Rest </p>
             </div>
 
@@ -182,10 +183,10 @@ const Hero = () => {
             </div>
 
             <div>
-                <Faq/>
+                <Faq />
             </div>
             <div>
-                <ConnectWithUs/>
+                <ConnectWithUs />
             </div>
 
 

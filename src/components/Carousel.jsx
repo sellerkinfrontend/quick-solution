@@ -24,11 +24,12 @@ const Carousel = () => {
         <img src={first} alt="Img 1" className='object-cover '/>
       </div>
       <div>
-        <img src={second} alt="Img 2" className='object-cover'/>
-      </div>
-      <div>
         <img src={third} alt="Img 3" className='object-cover'/>
       </div>
+      <div>
+        <img src={second} alt="Img 2" className='object-cover'/>
+      </div>
+      
       
     </Slider>
   );
