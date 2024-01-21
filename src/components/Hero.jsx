@@ -3,6 +3,8 @@ import Carousel from './Carousel'
 import Carousel1 from './Carousel1'
 import Carousel2 from './Carousel2'
 import underline from '../assets/Vector 37.svg'
+import Faq from './Faq'
+import ConnectWithUs from './ConnectWithUs'
 import Table from './Table'
 const Hero = () => {
     return (
@@ -12,7 +14,7 @@ const Hero = () => {
                     This is an invite only page ...
                 </p>
             </div>
-            <div className='xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
+            <div className='xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center   mt-10 font-medium font-serif'>
                 <p> This is for all Ecom Owners who want to set up their store on Shopify</p>
 
             </div>
@@ -25,38 +27,44 @@ const Hero = () => {
                 <p> Our Tested and Proven DEVORT Framework can help you to </p>
                 <p> build your <span className='italic underline'>High Performing</span>  Ecom Store on Shopify </p>
             </div>
-            <div className='  flex md:hidden justify-center flex-col items-center  mt-10 font-semibold font-sans'>
-                <p> Our Tested and Proven DEVORT </p>
-                <p>Framework can help you to </p>
-                <p> build your <span className='italic underline'>High Performing</span> </p>
-                <p>  Ecom Store on Shopify </p>
+            <div className='  flex md:hidden justify-center flex-col text-[28px] items-center  mt-10 font-semibold font-sans'>
+                <p> Our Tested and Proven  </p>
+                <p>DEVORT  Framework can</p>
+                <p> help you to build your</p>
+                <p>  <span className='italic underline'>High Performing</span>  Ecom</p>
+                <p>  Store on Shopify </p>
             </div>
             <div className='xl:text-2xl md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-serif'>
                 <p>Also Maximizes <span className='font-semibold'>Conversions, Mobile Page Experience, Website Loading Speed </span>  and helps</p>
                 <p>in <span className='underline italic font-semibold'>reducing Abandoned Cart</span>  and <span className='underline italic font-semibold'>Customer Acquisition Cost</span> </p>
             </div>
             <div className=' md:hidden flex justify-center flex-col items-center  mt-10 font-serif'>
-                <p>Also Maximizes <span className='font-semibold'>Conversions, Mobile Page </span></p>
-                <p><span>Experience, Website Loading Speed </span>  and </p>
-                <p>helps in <span className='underline italic font-semibold'>reducing Abandoned Cart</span>  and </p>
-                <p> <span className='underline italic font-semibold'>Customer Acquisition Cost</span> </p>
+                <p>Also Maximizes <span className='font-semibold'>Conversions, Mobile </span></p>
+                <p>Page <span>Experience, Website Loading </span> </p>
+                <p>Speed  and helps in <span className='underline italic font-semibold'>reducing </span> </p>
+                <p> <span className='underline italic font-semibold'> Abandoned Cart</span>  and <span className='underline italic font-semibold'>Customer</span></p>
+                <p> <span className='underline italic font-semibold'>Acquisition Cost</span> </p>
             </div>
             <div className='xl:text-lg md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
-                <p>( Successfully Delivered Shopify Stores to numerous clients using DEVORT Framework )</p>
+                <p>( Successfully Delivered Shopify Stores to <span className='underline font-semibold italic'>Numerous Clients</span>  using DEVORT Framework )</p>
             </div>
             <div className=' md:hidden flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
-                <p>( Successfully Delivered Shopify Stores to </p>
-                <p> numerous clients using DEVORT Framework )</p>
+                <p>( Successfully Delivered Shopify </p>
+                <p> Stores to <span className='underline font-semibold italic'>Numerous Clients</span>  </p>
+                <p>  using DEVORT Framework )</p>
             </div>
-            <div className='grid justify-center items-center  xl:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-6 font-serif '>
+            <div className='xl:text-lg md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
+                <p>Our Full Suite of Shopify Ecommerce Development Services </p>
+            </div>
+            <div className='grid justify-center items-center  xl:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 font-serif '>
                 <div className='flex justify-center items-center'>
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
                         <div>
-                            <p className='font-bold text-2xl mb-2'>Quick Setup</p>
+                            <p className='font-bold text-2xl mb-2'>Shopify Store Setup</p>
                         </div>
-                        <div className='font-medium text-sm '>
-                            <p className='text-base'>Store setup within</p>
+                        <div className='font-medium text-xs '>
+                            <p className=''>Complete setup within</p>
                             <p>7-21 Days</p>
                         </div>
                     </div>
@@ -65,9 +73,9 @@ const Hero = () => {
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
                         <div className='font-bold text-2xl mb-2'>
-                            <p>Custom Coding</p>
+                            <p>Custom Shopify Development Services</p>
                         </div>
-                        <div className='font-medium text-sm'>
+                        <div className='font-medium text-xs'>
                             <p>Tailoring the store to</p>
                             <p>specific requirements.</p>
                         </div>
@@ -78,10 +86,10 @@ const Hero = () => {
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
                         <div className='font-bold text-2xl mb-2'>
-                            <p>Integration Services</p>
+                            <p>Shopify App Integration Services</p>
                         </div>
                         <div className='font-medium text-sm'>
-                            <p>Includes Instagram and</p>
+                            <p>By Default, includes Instagram and</p>
                             <p> WhatsApp integration.</p>
                         </div>
                     </div>
@@ -91,14 +99,33 @@ const Hero = () => {
                     <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
 
                         <div className='font-bold text-2xl mb-2'>
-                            <p>Bonus Shopify Theme</p>
+                            <p>
+                                Shopify Migration Services</p>
                         </div>
-                        <div className='font-medium text-sm'>
-                            <p>Offers the choice of a Paid</p>
-                            <p>Shopify theme as a bonus.</p>
-                        </div>
+                        
                     </div>
                 </div>
+                <div className='flex justify-center items-center'>
+                    <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
+
+                        <div className='font-bold text-2xl mb-2'>
+                            <p>Third Party Integration</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className='flex justify-center items-center'>
+                    <div className='border-2   border-custom-color-1 text-black flex justify-center text-center m-9  rounded-md flex-col relative w-72 h-36 bg-[#D2B48C] shadow-xl'>
+
+                        <div className='font-bold text-2xl mb-2'>
+                            <p>Shopify Maintenance and Support</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
 
 
             </div>
@@ -111,11 +138,11 @@ const Hero = () => {
                 <p> development is in SAFE hands. </p>
             </div>
 
-            <div className='xl:text-3xl text-xl lg:text-2xl flex justify-center  items-center  mt-6 font-serif font-medium text-custom-color-1'>
-                <p>Screenshots of our clients websites</p>
+            <div className='xl:text-5xl text-xl lg:text-2xl flex justify-center  items-center  mt-6 font-serif font-medium text-custom-color-1'>
+                <p>Few of our Shopify Clients</p>
             </div>
             <div className='hidden md:flex justify-center mt-2'>
-                <img src={underline} alt="img loading" className='md:w-5/12 ' />
+                <img src={underline} alt="img loading" className='md:w-4/12 xl:w-6/12' />
             </div>
             <div className='xl:text-2xl md:text-base flex justify-center  items-center  mt-6 font-serif font-medium'>
                 <p style={{ color: '#f7516e' }}>pallavipoddar.com</p>
@@ -135,7 +162,7 @@ const Hero = () => {
             <div className='mt-10'>
                 <Carousel2 />
             </div>
-            <div className='xl:text-3xl md:text-xl lg:text-2xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
+            <div className='xl:text-5xl md:text-xl lg:text-2xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
                 <p>Here is How our service compares to the Rest </p>
             </div>
             <div className=' md:hidden  flex flex-col text-xl justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
@@ -144,12 +171,18 @@ const Hero = () => {
             </div>
 
             <div className='hidden md:flex justify-center mt-2'>
-                <img src={underline} alt="img loading" className='md:w-6/12 ' />
+                <img src={underline} alt="img loading" className='md:w-6/12 xl:w-10/12' />
             </div>
             <div className='mt-10 pb-20'>
                 <Table></Table>
             </div>
 
+            <div>
+                <Faq/>
+            </div>
+            <div>
+                <ConnectWithUs/>
+            </div>
 
 
         </div>
