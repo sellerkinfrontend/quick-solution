@@ -1,12 +1,12 @@
 import React from 'react'
-import './Faq.css'
+
 import underline from '../assets/Vector 37.svg'
 import question from "../assets/Group 184.svg"
 import question1 from "../assets/Group 185.svg"
 const Faq = () => {
     return (
-        <div>
-            <div className='font-sans font-bold xl:text-5xl md:text-2xl lg:text-3xl hidden md:flex flex-col justify-center items-center gap-3'>
+        <div id='faqs' className='mt-10'>
+            <div className='font-sans font-bold xl:text-5xl md:text-2xl lg:text-3xl hidden md:flex flex-col justify-center items-center gap-3 '>
                 <p> Frequently Asked <span className='text-custom-color-1'>Questions</span></p>
                 <img src={underline} alt="img loading" className='xl:w-6/12 md:w-5/12 ' />
             </div>
