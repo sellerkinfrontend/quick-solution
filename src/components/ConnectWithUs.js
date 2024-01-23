@@ -12,7 +12,7 @@ const ConnectWithUs = () => {
 
             <div className='flex flex-col md:flex-row gap-6 md:mt-20 mt-5  lg:justify-between'>
 
-                <div className='flex flex-col w-6/12 items-center  '>
+                <div className='flex flex-col md:w-6/12 xl:w-auto items-center  '>
                     <div className='font-semibold relative xl:left-16 '>
                         <p>Mobile No- +91-9873294471</p>
                         <p>Email Id- ecommstoresolutions@gmail.com</p>
