@@ -16,12 +16,12 @@ const Navbar = () => {
     ];
     return (
         <div className='flex justify-around top-5 relative'>
-            <div className='text-2xl font-semibold relative right-4 xl:right-20'>
+            <div className='text-2xl  md:block font-semibold relative right-4 xl:right-20'>
                 <p>Ecomquiksolutions</p>
             </div>
             <div>
                 <ul className=" justify-center list-none ml-4 hidden md:flex space-x-5">
-                    <li className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer">
+                    <li className="text-lg text-black hover:text-orange-400 transition-all cursor-pointer font-semibold">
                         <Link
 
                             to="connect"
@@ -46,7 +46,7 @@ const Navbar = () => {
                         <a href="#" onClick={() => setShowMenu(!showMenu)}>
                             <GiHamburgerMenu />
                             {showMenu ? (
-                                <div className="absolute mt-3 w-32 h-28 bg-white rounded-md border-[1px] p-3 border-black/70 translate-x-[-105px]">
+                                <div className="absolute mt-3 w-32 h-20 bg-white rounded-md border-[1px] p-3 border-black/70 translate-x-[-105px]">
                                     <div className="flex flex-col gap-2">
                                         {menu.map((item) => (
                                             <Link
@@ -64,7 +64,7 @@ const Navbar = () => {
                                                 style={{ transition: 'all 0.3s' }}
                                             >
                                                 {item.name}
-                                                <hr />
+                                         
                                             </Link>
 
                                         ))}

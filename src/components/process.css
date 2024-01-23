@@ -8,14 +8,14 @@
     left: 50%;
 }
 
-  @media only screen and (min-width: 820px) and (max-width: 1023px) {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .line::after {
        height: 1530px;
     }
  }
  @media only screen and (min-width: 1024px) and (max-width: 1280px) {
     .line::after{
-     height:1400px ;
+     height:1200px ;
     }
    }
  

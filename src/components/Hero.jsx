@@ -12,8 +12,8 @@ const Hero = () => {
     return (
         <div className='bg-custom-color'>
 
-            <Navbar/>
-            
+            <Navbar />
+
             <div className="relative font-serif mt-10" >
                 <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif xl:text-base md:text-xs lg:text-sm">
                     This is an invite only page ...
@@ -41,7 +41,7 @@ const Hero = () => {
                 <p>  Store on Shopify in</p>
                 <p className='italic'> <span className='underline '>Less than</span> <span className='underline'>21 Days</span></p>
             </div>
-            <div className='xl:text-2xl md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-serif'>
+            <div className='xl:text-2xl md:text-base hidden md:flex justify-center flex-col items-center  mt-10 font-serif'>
                 <p>Also Maximizes <span className='font-semibold'>Conversions, Mobile Page Experience, Website Loading Speed </span>  and helps</p>
                 <p>in <span className='underline italic font-semibold'>reducing Abandoned Cart</span>  and <span className='underline italic font-semibold'>Customer Acquisition Cost</span> </p>
             </div>
@@ -52,7 +52,7 @@ const Hero = () => {
                 <p> <span className='underline italic font-semibold'> Abandoned Cart</span>  and <span className='underline italic font-semibold'>Customer</span></p>
                 <p> <span className='underline italic font-semibold'>Acquisition Cost</span> </p>
             </div>
-            <div className='xl:text-lg md:text-lg hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
+            <div className='xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center  mt-10 font-medium font-serif'>
                 <p>( Successfully Delivered Shopify Stores to <span className='underline font-semibold italic'>Numerous Clients</span>  using DEVORT Framework )</p>
             </div>
             <div className=' md:hidden flex justify-center flex-col items-center  mt-5 font-medium text-lg font-serif'>
@@ -74,7 +74,7 @@ const Hero = () => {
                         <div>
                             <p className='font-medium text-2xl mb-2'>Shopify Store Setup</p>
                         </div>
-                        <div className='font-medium text-xs '>
+                        <div className='font-medium text-sm '>
                             <p className=''>Complete setup within</p>
                             <p>7-21 Days</p>
                         </div>
@@ -86,7 +86,7 @@ const Hero = () => {
                         <div className='font-medium  text-2xl mb-2'>
                             <p>Custom Shopify Development Services</p>
                         </div>
-                        <div className='font-medium text-xs'>
+                        <div className='font-medium text-sm'>
                             <p>Tailoring the store to</p>
                             <p>specific requirements.</p>
                         </div>
@@ -135,11 +135,6 @@ const Hero = () => {
 
                     </div>
                 </div>
-
-
-
-
-
             </div>
 
             <div className='xl:text-3xl md:text-xl hidden md:flex justify-center  items-center  mt-12 font-serif font-medium'>
@@ -153,8 +148,8 @@ const Hero = () => {
             <div className='xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-10 md:mt-20 font-serif font-medium text-custom-color-1'>
                 <p>Few of our Shopify Clients</p>
             </div>
-            <div className='hidden md:flex justify-center mt-2'>
-                <img src={underline} alt="img loading" className='md:w-4/12 lg:w-5/12 xl:w-6/12' />
+            <div className=' md:flex justify-center mt-2'>
+                <img src={underline} alt="img loading" className='mx-auto w-10/12 md:w-4/12 lg:w-5/12 xl:w-6/12' />
             </div>
             <div className='xl:text-2xl md:text-base flex justify-center  items-center mt-10 md:mt-16 font-serif font-medium'>
                 <p style={{ color: '#f7516e' }}>pallavipoddar.com</p>
@@ -175,9 +170,9 @@ const Hero = () => {
                 <Carousel2 />
             </div>
             <div>
-                <Process/>
+                <Process />
             </div>
-            <div className='xl:text-5xl md:text-xl lg:text-3xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
+            <div className='xl:text-5xl md:text-xl lg:text-3xl hidden md:flex justify-center  items-center  mt-16 xl:mt-28 font-serif font-medium text-custom-color-1'>
                 <p>Here is how our service compares to the Rest </p>
             </div>
             <div className=' md:hidden  flex flex-col text-3xl justify-center  items-center  mt-16  font-serif font-medium text-custom-color-1'>
@@ -192,13 +187,13 @@ const Hero = () => {
                 <Table></Table>
             </div>
 
-            <div>
+            <div className=''>
                 <Faq />
             </div>
             <div>
                 <ConnectWithUs />
             </div>
-            
+
 
         </div>
     )

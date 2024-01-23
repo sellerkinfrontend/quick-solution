@@ -10,9 +10,9 @@ const ConnectWithUs = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col md:flex-row gap-6 md:mt-20 mt-5 justify-between'>
+            <div className='flex flex-col md:flex-row gap-6 md:mt-20 mt-5  lg:justify-between'>
 
-                <div className='flex flex-col  items-center  '>
+                <div className='flex flex-col w-6/12 items-center  '>
                     <div className='font-semibold relative xl:left-16 '>
                         <p>Mobile No- +91-9873294471</p>
                         <p>Email Id- ecommstoresolutions@gmail.com</p>
@@ -40,7 +40,7 @@ const ConnectWithUs = () => {
                             <input type="message" name='desc' required placeholder='Give us a small brief about your project ' id='desc' className='border-2 border-black  rounded-md  h-10 bg-white xl:p-8 p-2 text-black' />
                         </div>
 
-                        <button type='submit' className='flex self-center  border-2 border-black  w-full justify-center rounded-md font-bold h-10 items-center  p-6 text-2xl hover:bg-orange-500'>Submit</button>
+                        <button type='submit' className='flex self-center  border-2 border-black  w-full justify-center rounded-md font-bold h-10 items-center  p-6 text-2xl hover:bg-custom-color-1 '>Submit</button>
                     </form>
                 </div>
 
