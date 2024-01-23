@@ -7,6 +7,7 @@ import Faq from './Faq'
 import ConnectWithUs from './ConnectWithUs'
 import Table from './Table'
 import Navbar from './Navbar'
+import Process from './Process'
 const Hero = () => {
     return (
         <div className='bg-custom-color'>
@@ -172,6 +173,9 @@ const Hero = () => {
             </div>
             <div className='mt-10'>
                 <Carousel2 />
+            </div>
+            <div>
+                <Process/>
             </div>
             <div className='xl:text-5xl md:text-xl lg:text-3xl hidden md:flex justify-center  items-center  mt-16 font-serif font-medium text-custom-color-1'>
                 <p>Here is how our service compares to the Rest </p>

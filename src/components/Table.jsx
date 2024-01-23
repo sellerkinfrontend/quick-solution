@@ -5,7 +5,7 @@ const Table = () => {
     <div className='flex justify-center items-center'>
       <table className='custom-table font-serif md:text-base text-xs ' >
         <tr>
-            <th></th>
+            <th style={{textAlign:"left",paddingLeft:"2.5%"}}>Point of Comparision</th>
             <th>Our Service</th>
             <th>Other Service Providers</th>
         </tr>
@@ -17,7 +17,7 @@ const Table = () => {
         <tr className='font-semibold'>
             <td className='text-left' style={{textAlign:'left',paddingLeft:'25px'}}>Custom Coding</td>
             <td>Yes</td>
-            <td>No</td>
+            <td>Yes</td>
         </tr>
         <tr className='font-semibold'>
             <td className='text-left' style={{textAlign:'left',paddingLeft:'25px'}}>Whatsapp Support </td>
