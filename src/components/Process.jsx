@@ -32,7 +32,7 @@ const Process = () => {
                 </div>
 
 
-                <div className='flex flex-col md:flex-row justify-start relative md:right-10 mt-5 '>
+                <div className='flex flex-col md:flex-row justify-start relative md:right-10 mt-10  md:mt-5 '>
                     <div className='text-xl  font-semibold flex justify-center relative xl:left-80 md:left-48 lg:left-60'>
                         <p>Step -2 </p>
                     </div>
@@ -47,7 +47,7 @@ const Process = () => {
 
 
                 </div>
-                <div className='flex flex-col md:flex-row justify-end  relative md:right-6 mt-4 lg:right-12 '>
+                <div className='flex flex-col md:flex-row justify-end  relative md:right-6 mt-10 md:mt-4  lg:right-12 '>
                     <div className='text-xl  font-semibold flex justify-center  relative xl:left-80 md:left-48 lg:left-60'>
                         <p>Step -3 </p>
                     </div>
@@ -64,7 +64,7 @@ const Process = () => {
 
 
                 </div>
-                <div className='flex flex-col md:flex-row justify-start relative md:right-10 lg:right-12 mt-5'>
+                <div className='flex flex-col md:flex-row justify-start relative md:right-10 lg:right-12 md:mt-5 mt-10'>
                     <div className='text-xl  font-semibold flex justify-center  relative xl:left-80 md:left-48 lg:left-60'>
                         <p>Step -4 </p>
                     </div>
@@ -81,7 +81,7 @@ const Process = () => {
 
 
                 </div>
-                <div className='flex flex-col md:flex-row justify-end relative md:right-6 mt-5  lg:right-12'>
+                <div className='flex flex-col md:flex-row justify-end relative md:right-6 md:mt-5 mt-10 lg:right-12'>
                     <div className='text-xl  font-semibold flex justify-center  relative xl:left-80 md:left-48 lg:left-60'>
                         <p>Step -5 </p>
                     </div>
