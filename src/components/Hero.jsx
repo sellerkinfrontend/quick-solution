@@ -6,7 +6,7 @@ import underline from '../assets/Vector 37.svg'
 import Faq from './Faq'
 import ConnectWithUs from './ConnectWithUs'
 import Table from './Table'
-import Navbar from './Navbar'
+import Navbar from './Navbar.jsx'
 import Process from './Process'
 const Hero = () => {
     return (
