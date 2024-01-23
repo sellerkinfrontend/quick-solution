@@ -8,7 +8,7 @@ const Process = () => {
                 <p>Project Lifecycle with DEVORT Framework </p>
                 <img src={underline} alt="" className='hidden md:block xl:w-8/12 md:w-10/12 lg:w-9/12' />
             </div>
-            <div className=' text-3xl flex md:hidden flex-col gap-3 text-custom-color-1 justify-center items-center'>
+            <div className=' text-3xl flex md:hidden flex-col gap-3 text-custom-color-1 justify-center items-center font-semibold font-sans'>
                 <p>Project Lifecycle with </p>
                 <p>DEVORT Framework </p>
                 
@@ -16,7 +16,7 @@ const Process = () => {
             <div className='line mt-28 hidden md:block'>
 
             </div>
-            <div className='flex  flex-col mt-10'>
+            <div className='flex  flex-col mt-16 lg:mt-10'>
                 
                 <div className='flex flex-col md:flex-row  justify-end relative md:right-6 lg:right-12'>
                     <div className='text-xl  font-semibold flex justify-center  relative xl:left-80 md:left-48 lg:left-60'>

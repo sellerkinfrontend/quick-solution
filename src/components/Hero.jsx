@@ -87,8 +87,8 @@ const Hero = () => {
                             <p>Custom Shopify Development Services</p>
                         </div>
                         <div className='font-medium text-sm'>
-                            <p>Tailoring the store to</p>
-                            <p>specific requirements.</p>
+                            <p>Tailoring the store to specific</p>
+                            <p> requirements.</p>
                         </div>
                     </div>
                 </div>
