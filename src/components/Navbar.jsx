@@ -10,6 +10,7 @@ const Navbar = () => {
         {
             name: "Connect with us",
             key: 1,
+            id:"connect"
         },
         
 
@@ -51,7 +52,7 @@ const Navbar = () => {
                                         {menu.map((item) => (
                                             <Link
                                                 key={item.key}
-                                                to={item.name.toLowerCase().replace(/ /g, '_')}
+                                                to={item.id}
                                                 spy={true}
                                                 smooth={true}
                                                 offset={20}

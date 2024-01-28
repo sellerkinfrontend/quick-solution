@@ -3,7 +3,7 @@ import './process.css'
 import underline from '../assets/Vector 37.svg'
 const Process = () => {
     return (
-        <div className='mt-32'>
+        <div className='md:mt-32 mt-24'>
             <div className='xl:text-5xl md:text-4xl text-3xl hidden md:flex flex-col gap-3 text-custom-color-1 justify-center items-center'>
                 <p>Project Lifecycle with DEVORT Framework </p>
                 <img src={underline} alt="" className='hidden md:block xl:w-8/12 md:w-10/12 lg:w-9/12' />
